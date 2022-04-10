@@ -4,7 +4,7 @@ var quantidade = document.getElementById('quantidade');
         pegaPokemons(quantidade.value);
     })
 
-pegaPokemons(2);
+pegaPokemons(0);
 function pegaPokemons(quantidade){
 
     fetch('https://pokeapi.co/api/v2/pokemon?limit='+quantidade)
